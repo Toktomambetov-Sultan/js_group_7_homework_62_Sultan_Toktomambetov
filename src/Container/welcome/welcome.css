@@ -1,0 +1,26 @@
+.Welcome{
+    height: 100vh;
+    background-color: #000000;
+    color: 0;
+    color: #fff;
+    text-align: center;
+    padding: 20% 0;
+}
+.Welcome .title{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+.Welcome .btn{
+    padding: 10px 20px;
+    font-size: 32px;
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    outline: none;
+}
+.Welcome .btn:active{
+    border: 3px solid rgb(60, 255, 0);
+    color: rgb(60, 255, 0);
+}

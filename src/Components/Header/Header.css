@@ -1,0 +1,33 @@
+.header {
+    padding: 20px 10px 10px;
+    background-color: #000;
+}
+
+.header__link-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__link-item {
+    margin: 0 10px;
+}
+
+.header__link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    border: 3px solid #fff;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    outline: none;
+}
+
+.header__link.active,
+.header__link:active {
+    border: 3px solid rgb(60, 255, 0);
+    color: rgb(60, 255, 0);
+    outline: none;
+}

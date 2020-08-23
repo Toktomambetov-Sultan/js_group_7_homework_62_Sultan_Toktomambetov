@@ -1,0 +1,31 @@
+.Home .main-block {
+    padding: 200px 0;
+    background: url("./../../Images/main-photo.jpeg") no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    position: relative;
+}
+
+.Home .main-block::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.Home .main-block h3 {
+    font-size: 50px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.Home .main-block p {
+    font-size: 22px;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
