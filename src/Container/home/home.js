@@ -9,10 +9,9 @@ export default function home(props) {
       <Header history={props.history} />
       <div className="main-block">
         <Container>
-          <h3>Home</h3>
+          <h3>Очки на заказ</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium
-            ullam blanditiis enim in nemo.
+            Наша компании на рынке более 5 лет.
           </p>
         </Container>
       </div>
